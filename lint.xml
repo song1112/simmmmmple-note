@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/org/songdbl1/simplenote/MainActivity.java" />
+        <ignore path="src/org/songdbl1/simplenote/MyAdapter.java" />
+    </issue>
+</lint>

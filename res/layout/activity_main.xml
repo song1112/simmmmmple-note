@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.songdbl1.simplenote.MainActivity"
+    android:background="@drawable/background" >
+
+    <ImageButton
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/write" />
+
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:column_count_landscape="3"
+        app:column_count_portrait="2"
+        app:item_margin="10dp" />
+
+</LinearLayout>
